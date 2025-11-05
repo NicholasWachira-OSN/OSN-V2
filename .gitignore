@@ -1,0 +1,37 @@
+# Root ignores for the monorepo
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# General dependency/build caches (guard in case new folders are added at root)
+node_modules/
+vendor/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Flutter/Dart (in case additional root-level tooling added later)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Temp
+tmp/
+temp/
