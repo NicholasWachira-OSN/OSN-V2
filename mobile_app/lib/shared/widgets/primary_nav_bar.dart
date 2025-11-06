@@ -62,7 +62,7 @@ class _PrimaryNavBarState extends State<PrimaryNavBar>
       _NavItemData('Watch', '/watch'),
       _NavItemData('Browse', '/browse'),
       _NavItemData('Features', '/features'),
-      _NavItemData('Interviews', '/interviews'),
+      _NavItemData('Schedule', '/schedule'),
     ];
 
     return Padding(

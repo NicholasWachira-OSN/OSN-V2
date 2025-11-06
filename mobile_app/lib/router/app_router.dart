@@ -9,7 +9,7 @@ import '../screens/register_screen.dart';
 import '../screens/watch_screen.dart';
 import '../screens/browse_screen.dart';
 import '../screens/features_screen.dart';
-import '../screens/interviews_screen.dart';
+import '../screens/schedule_screen.dart';
 import '../screens/video_screen.dart';
 import '../features/reels/screens/reels_viewer_screen.dart';
 
@@ -68,9 +68,9 @@ final goRouterProvider = Provider<GoRouter>((ref) {
         builder: (context, state) => const FeaturesScreen(),
       ),
       GoRoute(
-        path: '/interviews',
-        name: 'interviews',
-        builder: (context, state) => const InterviewsScreen(),
+        path: '/schedule',
+        name: 'schedule',
+        builder: (context, state) => const ScheduleScreen(),
       ),
       GoRoute(
         path: '/reels',

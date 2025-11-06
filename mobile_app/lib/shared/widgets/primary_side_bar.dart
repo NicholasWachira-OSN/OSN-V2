@@ -22,7 +22,7 @@ class _PrimarySideBarState extends State<PrimarySideBar>
     _Item(label: 'Watch', path: '/watch', icon: Icons.play_circle_outline),
     _Item(label: 'Browse', path: '/browse', icon: Icons.grid_view_outlined),
     _Item(label: 'Features', path: '/features', icon: Icons.star_border),
-    _Item(label: 'Interviews', path: '/interviews', icon: Icons.mic_none),
+    _Item(label: 'Schedule', path: '/schedule', icon: Icons.calendar_month_outlined),
   ];
 
   @override
@@ -99,7 +99,7 @@ class _PrimarySideBarState extends State<PrimarySideBar>
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
                 child: Text(
-                  'Navigate',
+                  'OSN',
                   style: Theme.of(context)
                       .textTheme
                       .titleMedium
